@@ -1,0 +1,9 @@
+.line {
+  width: 150px;
+  height: 150px;
+  border-bottom: 20px solid #254182;
+  border-radius: 50px;
+  transform: rotate(135deg);
+  position: absolute;
+}
+

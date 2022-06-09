@@ -1,0 +1,28 @@
+.search__input {
+  width: 110%;
+  padding: 12px 30px;
+  background-color: transparent;
+  transition: transform 250ms ease-in-out;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+  border-radius: 50px;
+  border: 1px solid #3a3b45;
+  transition: all 250ms ease-in-out;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.search__input:hover:focus {
+  padding: 12px 20px;
+  outline: 0;
+  border: 1px solid transparent;
+  border-bottom: 2px solid #a98d44;
+  border-radius: 0;
+  background-position: 100% center;
+}
+
+.search__input::placeholder {
+  color: #919191;
+}
+

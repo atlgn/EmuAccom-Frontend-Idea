@@ -1,0 +1,120 @@
+body {
+  background: #212529;
+  zoom: 95%;
+}
+
+/* TABS */
+
+.nav-link {
+  color: #a98d44;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #254182;
+}
+
+a:hover {
+  color: #254182;
+}
+
+/* Body and General Html Settings */
+
+@media (min-width: 300px) {
+  main {
+    padding-top: 110px !important;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 576px) {
+  main {
+    padding-top: 175px !important;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    padding-top: 190px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+.border {
+  border: 2px solid #a98d44 !important;
+  border-radius: 10px;
+}
+
+.marginbot40px {
+  margin-bottom: 40px;
+}
+
+/* Post Cards */
+
+.advCards {
+  width: 18rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 5px 5px 16px 2px rgba(0,0,0,0.25);
+  margin: 14px;
+  min-width: 280px;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.cardAnim {
+  height: 520px;
+  border-style: none;
+  background: rgba(255,255,255,0);
+}
+
+.cardAnim:hover {
+  animation: cardMove 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes cardMove {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 10px;
+  }
+}
+
+.card-body {
+  height: 262px;
+}
+
+.cardheader {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  color: #254182;
+}
+
+.cardbutton {
+  padding: 4px;
+  background: #a98d44;
+  color: rgb(255,255,255);
+  border-radius: 17px;
+  padding-right: 14px;
+  padding-left: 14px;
+  padding-bottom: 6px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: auto;
+  text-decoration: none;
+}
+
+.card-image {
+  height: 200px;
+  width: 286px;
+  border-radius: 10px;
+}
+
+/* footer Company Logos */
+

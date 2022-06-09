@@ -1,0 +1,27 @@
+.maximageHeight {
+  max-height: 300px;
+}
+
+.baslik {
+  color: #3a3b45;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+#backtoTopbtn {
+  position: fixed;
+  right: 3rem;
+  bottom: 2rem;
+  font-size: 40px;
+  background: rgba(169,141,68,0.68);
+  color: white;
+  border-radius: 20px;
+  border-style: none;
+}
+
+#backtoTopbtn:hover {
+  background-color: #254182;
+}
+
